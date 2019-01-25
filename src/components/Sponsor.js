@@ -26,6 +26,7 @@ const Box = styled.div`
     }
 
     img {
+        min-width: 3rem;
         width: 3rem;
         height: 3rem;
         margin-right: 2rem;
