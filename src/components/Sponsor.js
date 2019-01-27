@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { colors, fonts, linkStyle, sizes } from '../css/variables';
-import sponsorImg from '../../public/sponsor.png';
+import { colors, sizes } from '../css/variables';
+import noltImg from '../../public/sponsors/nolt.png';
+import fomoImg from '../../public/sponsors/fomo.svg';
 import OutgoingLink from './OutgoingLink';
 import Container from './Container';
 
@@ -37,18 +38,33 @@ const Box = styled.div`
     }
 `;
 
+const sponsors = [
+    {
+        name: 'Nolt',
+        descritpion: 'A free, fast & beautiful way to collect and organize user feedback.',
+        url: 'https://nolt.io/?utm_source=DigitalPsychology&utm_medium=referral&utm_campaign=footer',
+        image: noltImg
+    },
+    {
+        name: 'Fomo',
+        descritpion: 'Increase trust, traffic, and sales with social proof automation.',
+        url: 'https://fomo.com/?utm_source=DigitalPsychology&utm_medium=referral&utm_campaign=footer',
+        image: fomoImg
+    }
+];
+
+const sponsor = sponsors[1];
+
 function Sponsor() {
     return (
         <Root>
             <Container>
                 <h3>Sponsor</h3>
                 <Box>
-                    <OutgoingLink
-                        to={`https://nolt.io/?utm_source=DigitalPsychology&utm_medium=referral&utm_campaign=footer`}>
-                        <img src={sponsorImg} />
+                    <OutgoingLink to={sponsor.url}>
+                        <img src={sponsor.image} />
                         <span>
-                            <strong>Nolt</strong> – A free, fast & beautiful way to collect and organize user
-                            feedback.
+                            <strong>{sponsor.name}</strong> – {sponsor.descritpion}
                         </span>
                     </OutgoingLink>
                 </Box>
