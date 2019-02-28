@@ -41,7 +41,7 @@ const Box = styled.div`
 const sponsors = [
     {
         name: 'Nolt',
-        descritpion: 'A free, fast & beautiful way to collect and organize user feedback.',
+        descritpion: 'Collect feedback in a central place that your users will love.',
         url: 'https://nolt.io/?utm_source=DigitalPsychology&utm_medium=referral&utm_campaign=footer',
         image: noltImg
     },
@@ -53,7 +53,7 @@ const sponsors = [
     }
 ];
 
-const sponsor = sponsors[1];
+const sponsor = sponsors[0];
 
 function Sponsor() {
     return (
