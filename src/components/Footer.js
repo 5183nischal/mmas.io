@@ -41,12 +41,13 @@ function Footer(props) {
     const siteDescription
         = `mmas - a blog on mind, machine, art, & society`
         + ` might contain: math, musings, analysis, and reflections.`
-        + ` Also speculations.`;
+        + ` Also speculations`;
 
     return (
         <Root>
             <Container>
                 <Info>
+                    <br></br>
                     {siteDescription}. by{' '}
                     <OutgoingLink to={`https://nischalmainali.xyz`}>
                         nischal mainali
