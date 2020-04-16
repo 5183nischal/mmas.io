@@ -42,7 +42,7 @@ function Header() {
     return (
         <Root>
             <Title>
-                <Anchor to="/">{`mind, machines, art, & society`}</Anchor>
+                <Anchor to="/">{`mind, machines, art & society`}</Anchor>
             </Title>
         </Root>
     );
