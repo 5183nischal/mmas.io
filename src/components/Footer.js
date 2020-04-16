@@ -38,6 +38,8 @@ const Anchor = styled(OutgoingLink)`
 `;
 
 function Footer(props) {
+    const siteDescription
+        = ` `
 
     return (
         <Root>
