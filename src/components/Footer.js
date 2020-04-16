@@ -39,7 +39,7 @@ const Anchor = styled(OutgoingLink)`
 
 function Footer(props) {
     const siteDescription
-        = `a blog on mind, machine, art, & society \\`
+        = `essays on mind, machine, art, & society \\`
         + ` might contain: math, musings, analysis, and reflections`;
 
     return (
