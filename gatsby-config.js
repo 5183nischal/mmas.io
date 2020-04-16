@@ -1,13 +1,13 @@
 module.exports = {
     pathPrefix: `/`,
     siteMetadata: {
-        author: `Daniel Stefanovic`,
-        description: `A free library of psychological principles and examples`
-            + ` to elevate your SaaS, e-commerce or other digital products.`,
+        author: `Nischal Mainali`,
+        description: `A blog on mind, machine, art, & society`
+            + ` might contain: math, musings, analysis, and reflections.`,
         facebookAppId: `310591556081648`,
         siteUrl: `http://digitalpsychology.io`,
-        title: `Digital Psychology`,
-        twitterHandle: `danistefanovic`
+        title: `mmas`,
+        twitterHandle: `_nischalmainali`
     },
     plugins: [
         {
