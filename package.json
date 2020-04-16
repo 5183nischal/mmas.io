@@ -1,8 +1,8 @@
 {
-  "name": "digitalpsychology",
-  "description": "Digitalpsychology.io website",
+  "name": "mmas",
+  "description": "A blog on mind, machine, art, & society",
   "version": "1.0.0",
-  "author": "Daniel Stefanovic <daniel.stefanovic@gmail.com>",
+  "author": "Nischal Mainali <nm2508@nyu.edu>",
   "scripts": {
     "build": "yarn run clean && gatsby build",
     "clean": "rm -rf public/ && rm -rf .cache/ ",
