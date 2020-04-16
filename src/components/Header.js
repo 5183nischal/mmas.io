@@ -42,7 +42,7 @@ function Header() {
     return (
         <Root>
             <Title>
-                <Anchor to="/">{`m m a s`}</Anchor>
+                <Anchor to="/">{`mmas`}</Anchor>
             </Title>
         </Root>
     );
