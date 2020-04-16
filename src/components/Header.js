@@ -42,7 +42,7 @@ function Header() {
     return (
         <Root>
             <Title>
-                <Anchor to="/">{`Digital Psychology`}</Anchor>
+                <Anchor to="/">{`m m a s`}</Anchor>
             </Title>
         </Root>
     );

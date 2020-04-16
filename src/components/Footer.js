@@ -39,36 +39,21 @@ const Anchor = styled(OutgoingLink)`
 
 function Footer(props) {
     const siteDescription
-        = `Digital Psychology – a free library of psychological principles`
-        + ` and examples for inspiration to enhance the customer experience and`
-        + ` connect with your users`;
+        = `mmas - a blog on mind, machine, art, & society`
+        + ` might contain: math, musings, analysis, and reflections.`,
+        + ` Also speculations.`;
 
     return (
         <Root>
             <Container>
                 <Info>
-                    {siteDescription}. Written by{' '}
-                    <OutgoingLink to={`https://twitter.com/${props.twitterHandle}`}>
-                        Daniel Stefanovic
+                    {siteDescription}. by{' '}
+                    <OutgoingLink to={`https://nischalmainali.xyz`}>
+                        nischal mainali
                     </OutgoingLink>
                     .
                 </Info>
 
-                <ul>
-                    <li>
-                        <Anchor to="http://bit.ly/digital-psychology-updates">
-                            {`Subscribe to updates`}
-                        </Anchor>
-                    </li>
-                    <li>
-                        <Anchor
-                            to={`http://twitter.com/share?text=${encodeURIComponent(
-                                siteDescription
-                            )}&url=http://digitalpsychology.io`}>
-                            {`Share on Twitter`}
-                        </Anchor>
-                    </li>
-                </ul>
             </Container>
         </Root>
     );
