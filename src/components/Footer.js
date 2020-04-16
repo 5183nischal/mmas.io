@@ -38,16 +38,13 @@ const Anchor = styled(OutgoingLink)`
 `;
 
 function Footer(props) {
-    const siteDescription
-        = `essays on mind, machine, art, & society \\              `
-        + ` might contain: math, musings, analysis, and reflections`;
 
     return (
         <Root>
             <Container>
                 essays on mind, machine, art, & society \\  
-                <br></br>                  `
-                might contain: math, musings, analysis, and reflections`;
+                <br></br>               
+                might contain: math, musings, analysis, and reflections
                 <Info>
                     {siteDescription}. by{' '}
                     <OutgoingLink to={`https://nischalmainali.xyz`}>
