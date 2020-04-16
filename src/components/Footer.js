@@ -45,13 +45,14 @@ function Footer(props) {
     return (
         <Root>
             <Container>
+                essays on mind, machine, art, & society \\  
+                <br></br>                  `
+                might contain: math, musings, analysis, and reflections`;
                 <Info>
-                    <br></br>
                     {siteDescription}. by{' '}
                     <OutgoingLink to={`https://nischalmainali.xyz`}>
                         nischal mainali
                     </OutgoingLink>
-                    .
                 </Info>
 
             </Container>
