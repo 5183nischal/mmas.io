@@ -6,7 +6,7 @@ image: 18,19|17,18,19|16,17,18,19|15,16,17,18|15,16,17,18|14,15,16,17|13,14,15,1
 seoImage: "seo-image.png"
 ---
 
-***
+<hr style="height:3px;border-width:0;color:gray;background-color:gray">
 
 The nature of data, like nature of most things, is slippery. When charged with the task of investigating the ontology of an object, we human are good at endlessly producing the necessary properties of the object but seldom the sufficient properties. In fact, it is one of the more striking rhyme between Mathematics and Philosophy that they both investigate the necessary **and** sufficient properties of objects. But there is a way in toward the nature of data - a crack through which the light eneters. And like heroic Dante we must make the perilous journey to the very bottom to reach the Paradiso - the valley of understanding.
 

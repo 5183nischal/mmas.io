@@ -37,7 +37,6 @@ function Post(props) {
                 twitterHandle={meta.twitterHandle}
                 type="article"
                 url={meta.siteUrl + post.fields.path} />
-            <PatternList items={post} />
             <Pagination next={nextPath} previous={previousPath} />
             <PostContent content={post.html} title={post.frontmatter.title} />
             <Sponsor />
