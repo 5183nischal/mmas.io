@@ -2,6 +2,7 @@ import R from 'ramda';
 import React from 'react';
 
 import NextPost from '../components/NextPost';
+import PatternList from '../components/PatternList';
 import Pagination from '../components/Pagination';
 import PostContent from '../components/PostContent';
 import SeoMetaTags from '../components/SeoMetaTags';
@@ -36,6 +37,7 @@ function Post(props) {
                 twitterHandle={meta.twitterHandle}
                 type="article"
                 url={meta.siteUrl + post.fields.path} />
+            <PatternList items={posts} />
             <Pagination next={nextPath} previous={previousPath} />
             <PostContent content={post.html} title={post.frontmatter.title} />
             <Sponsor />
