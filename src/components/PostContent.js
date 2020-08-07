@@ -22,8 +22,8 @@ const Root = styled(Container)`
 
 export default function PostContent(props) {
     return (
+        <h1>{props.title}</h1>
         <Root>
-            <h1>{props.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: props.content }} />
         </Root>
     );
