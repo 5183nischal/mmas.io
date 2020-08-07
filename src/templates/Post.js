@@ -22,6 +22,12 @@ function Post(props) {
     const nextTitle = R.path([currentIndex + 1, 'node', 'frontmatter', 'title'], edges);
     const nextPath = R.path([currentIndex + 1, 'node', 'fields', 'path'], edges);
     const previousPath = R.path([currentIndex - 1, 'node', 'fields', 'path'], edges);
+    const postsx = props.data.allMarkdownRemark.edges.map((edge) => ({
+        path: edge.node.fields.path,
+        image: edge.node.frontmatter.image,
+        slug: edge.node.fields.slug,
+        title: edge.node.frontmatter.title
+    })).filter((post) => post.slug !== '404');
 
     return (
         <div>
@@ -37,7 +43,7 @@ function Post(props) {
                 twitterHandle={meta.twitterHandle}
                 type="article"
                 url={meta.siteUrl + post.fields.path} />
-            <PatternList items={posts} />
+            <PatternList items={postsx} />
             <Pagination next={nextPath} previous={previousPath} />
             <PostContent content={post.html} title={post.frontmatter.title} />
             <Sponsor />
