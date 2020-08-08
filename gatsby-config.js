@@ -6,7 +6,7 @@ module.exports = {
             + ` might contain: math, musings, analysis, and reflections.`,
         facebookAppId: ``,
         siteUrl: ``,
-        title: `mmas`,
+        title: `spinglass`,
         twitterHandle: `nischmainali`
     },
     plugins: [
@@ -41,11 +41,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Digital Psychology`,
-                short_name: `Digital Psychology`, // eslint-disable-line camelcase
+                name: `spinglass`,
+                short_name: `spinglass`, // eslint-disable-line camelcase
                 start_url: `/?utm_source=homescreen`, // eslint-disable-line camelcase
-                background_color: `#ffffff`, // eslint-disable-line camelcase
-                theme_color: `#ffffff`, // eslint-disable-line camelcase
+                background_color: `#2c3e50`, // eslint-disable-line camelcase
+                theme_color: `#ecf0f1`, // eslint-disable-line camelcase
                 display: `minimal-ui`,
                 icons: [
                     {
