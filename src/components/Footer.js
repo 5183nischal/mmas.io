@@ -46,11 +46,11 @@ function Footer(props) {
             <Container>
                 essays on mind, machine, art, & society \\  
                 <br></br>               
-                might contain: math, musings, analysis, and reflections
+                might contain: math, musings, analysis, and speculations
                 <Info>
                     {siteDescription}. by{' '}
                     <OutgoingLink to={`https://nischalmainali.xyz`}>
-                        nischal mainali
+                        nisch
                     </OutgoingLink>
                 </Info>
 

@@ -39,7 +39,7 @@ function Post(props) {
                 url={meta.siteUrl + post.fields.path} />
             <Pagination next={nextPath} previous={previousPath} />
             <PostContent content={post.html} title={post.frontmatter.title} />
-            <Sponsor />
+            // <Sponsor />
             <NextPost title={nextTitle} to={nextPath} />
         </div>
     );

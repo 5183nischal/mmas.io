@@ -18,6 +18,10 @@ const Root = styled(Container)`
     a {
         ${linkStyle};
     }
+
+    h1 {
+        max-width: 800px;
+    }
 `;
 
 export default function PostContent(props) {
