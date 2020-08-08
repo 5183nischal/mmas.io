@@ -4,10 +4,10 @@ module.exports = {
         author: `Nischal Mainali`,
         description: `A blog on mind, machine, art, & society`
             + ` might contain: math, musings, analysis, and reflections.`,
-        facebookAppId: `310591556081648`,
-        siteUrl: `http://digitalpsychology.io`,
+        facebookAppId: ``,
+        siteUrl: ``,
         title: `mmas`,
-        twitterHandle: `_nischalmainali`
+        twitterHandle: `nischmainali`
     },
     plugins: [
         {
