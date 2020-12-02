@@ -1,7 +1,7 @@
 export const colors = {
     bg: '#fff',
     border: '#eaeaea',
-    heading: '#666',
+    heading: '#000',
     highlight: '#f8f8f8',
     text: '#000',
     textWeak: '#ccc'
