@@ -1,9 +1,9 @@
 export const colors = {
     bg: '#fff',
     border: '#eaeaea',
-    heading: '#000',
+    heading: '#666',
     highlight: '#f8f8f8',
-    text: '#666',
+    text: '#000',
     textWeak: '#ccc'
 };
 
@@ -15,8 +15,8 @@ export const fonts = {
         letter-spacing: 1px;
     `,
     text: `
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
+        font-family: 'Roboto mono', sans-serif;
+        font-weight: 400;
         color: ${colors.text};
     `
 };
