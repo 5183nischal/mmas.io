@@ -3,7 +3,7 @@ export const colors = {
     border: '#eaeaea',
     heading: '#000',
     highlight: '#f8f8f8',
-    text: '#14213d',
+    text: '#495057',
     textWeak: '#ccc'
 };
 
@@ -16,7 +16,7 @@ export const fonts = {
     `,
     text: `
         font-family: 'Roboto mono', monospace;
-        font-weight: 300;
+        font-weight: 200;
         color: ${colors.text};
     `
 };
