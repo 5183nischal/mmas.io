@@ -15,8 +15,8 @@ export const fonts = {
         letter-spacing: 1px;
     `,
     text: `
-        font-family: 'Roboto mono', monospace;
-        font-weight: 90;
+        font-family: 'Roboto mono';
+        font-weight: 100;
         color: ${colors.text};
     `
 };
