@@ -12,7 +12,7 @@ const Root = styled.div`
     flex-direction: column;
     height: 100vh;
 
-    @media (min-width: 700px) {
+    @media (min-width: 800px) {
         flex-direction: row;
     }
 `;
