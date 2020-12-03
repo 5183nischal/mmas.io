@@ -16,7 +16,7 @@ export const fonts = {
     `,
     text: `
         font-family: 'Roboto mono', monospace;
-        font-weight: 200;
+        font-weight: 90;
         color: ${colors.text};
     `
 };
