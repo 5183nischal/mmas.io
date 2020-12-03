@@ -3,7 +3,7 @@ export const colors = {
     border: '#eaeaea',
     heading: '#000',
     highlight: '#f8f8f8',
-    text: '#666',
+    text: '#495057',
     textWeak: '#ccc'
 };
 
