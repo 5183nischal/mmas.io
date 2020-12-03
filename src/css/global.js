@@ -2,6 +2,8 @@ import { injectGlobal } from 'styled-components';
 
 import robotoWoff from './fonts/roboto-latin-300.woff';
 import robotoWoff2 from './fonts/roboto-latin-300.woff2';
+import robotoMonoReg from './fonts/roboto-mono-v12-latin-regular.woff';
+import robotoMonoReg2 from './fonts/roboto-mono-v12-latin-regular.woff2';
 import robotoMonoWoff from './fonts/roboto-mono-latin-500.woff';
 import robotoMonoWoff2 from './fonts/roboto-mono-latin-500.woff2';
 import { colors, fonts } from './variables';
@@ -11,12 +13,12 @@ injectGlobal`
     @font-face {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 300;
+        font-weight: 400;
         src:
             local('Roboto Light'),
             local('Roboto-Light'),
-            url(${robotoWoff2}) format('woff2'),
-            url(${robotoWoff}) format('woff');
+            url(${robotoMonoReg2}) format('woff2'),
+            url(${robotoMonoReg}) format('woff');
     }
 
     @font-face {
